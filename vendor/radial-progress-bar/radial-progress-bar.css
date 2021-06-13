@@ -1,0 +1,49 @@
+svg.radial-progress {
+    height: auto;
+    max-width: 200px;
+    padding: 1em;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+
+svg.radial-progress circle {
+    fill: rgba(0, 0, 0, 0);
+    stroke: #fff;
+    stroke-dashoffset: 219.91148575129;
+    stroke-width: 10;
+}
+
+svg.radial-progress circle.incomplete {
+    opacity: 0.25;
+}
+
+svg.radial-progress circle.complete {
+    stroke-dasharray: 219.91148575129;
+}
+
+svg.radial-progress text {
+    fill: rgb(0, 0, 0);
+    text-anchor: middle;
+}
+
+.skill .row .cell svg.first circle {
+    stroke: #70B5E5;
+}
+
+/* Secondary */
+
+.skill .row .cell svg.second circle {
+    stroke: #B8507C;
+}
+
+/* Tertiary */
+
+.skill .row .cell svg.third circle {
+    stroke: #fd6470;
+}
+
+/* Quaternary */
+
+.skill .row .cell svg.fourth circle {
+    stroke: #75C2A7;
+}
